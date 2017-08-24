@@ -4,23 +4,23 @@ from django.template import loader
 
 
 def index(request):
-    context = {}
+    context = {'classhome': "nav-current"}
     return render(request, 'portfolio/index.html', context)
 
 def about(request):
-    context = {}
+    context = {'classabout': "nav-current"}
     return render(request, 'portfolio/about.html', context)
 
 def contact(request):
-    context = {}
+    context = {'classcontact': "nav-current"}
     return render(request, 'portfolio/contact.html', context)
 
 def projects(request):
-    context = {}
+    context = {'classprojects': "nav-current"}
     return render(request, 'portfolio/projects.html', context)
 
 def resume(request):
-    context = {}
+    context = {'classresume': "nav-current"}
     return render(request, 'portfolio/resume.html', context)
 
 

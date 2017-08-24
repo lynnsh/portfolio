@@ -17,12 +17,12 @@
 	<body>
 	<div id="content">
 		<nav>
-		<!--fix underline links!!-->
-			<li id="home-nav" class="nav-current"><a href="{% url 'index' %}">HOME</a> /</li>
-			<li class="main-nav" id="projects-nav"><a href="{% url 'projects' %}">PROJECTS</a> /</li>
-			<li class="main-nav" id="resume-nav"><a href="{% url 'resume' %}">RESUME</a> /</li>
-			<li class="main-nav" id="about-nav"><a href="{% url 'about' %}">ABOUT</a> /</li>
-			<li class="main-nav" id="contact-nav"><a href="{% url 'contact' %}">CONTACT</a></li>
+		<!--nav-current main-nav-->
+			<li id="home-nav" class="{% if classhome %}{{classhome}}{% else %}main-nav{% endif %}"><a href="{% url 'index' %}">HOME</a> /</li>
+			<li class="{% if classprojects %}{{classprojects}}{% else %}main-nav{% endif %}" id="projects-nav"><a href="{% url 'projects' %}">PROJECTS</a> /</li>
+			<li class="{% if classresume %}{{classresume}}{% else %}main-nav{% endif %}" id="resume-nav"><a href="{% url 'resume' %}">RESUME</a> /</li>
+			<li class="{% if classabout %}{{classabout}}{% else %}main-nav{% endif %}" id="about-nav"><a href="{% url 'about' %}">ABOUT</a> /</li>
+			<li class="{% if classcontact %}{{classcontact}}{% else %}main-nav{% endif %}" id="contact-nav"><a href="{% url 'contact' %}">CONTACT</a></li>
 		</nav>
 		
 		{% block content %}

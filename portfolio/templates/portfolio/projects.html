@@ -1,5 +1,7 @@
 {% extends 'portfolio/base.html' %}
 
+{% load staticfiles %}
+
 {% block name %}Projects{% endblock %}
 
 {% block content %}
@@ -13,7 +15,7 @@
 			<div id="message">
 				<h2 class="projects-header">Web Forum</h2>
 				<a href="../forum" onclick="return popup('../forum')">
-					<img src="images/forum.png"/></a>
+					<img src='{% static "images/forum.png" %}'/></a>
 			</div>
 			<div id="message">
 				<h2 class="projects-header">Memory Game</h2>
