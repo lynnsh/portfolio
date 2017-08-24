@@ -1,0 +1,220 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	height: 100%;
+	text-align: center;
+	background-image: url("images/1.jpg");
+	color: white;
+	font-family: Ubuntu;
+}
+
+p {
+	margin: 5px;
+}
+
+h2,h3, h4 {
+	font-family: Coming Soon;
+	margin-bottom: 10px;
+	font-size: 1.7em;
+}
+
+nav {
+	text-align: right;
+	padding: 1%;
+	margin-right: 5%;
+	margin-bottom: 3%;
+}
+
+.main-nav {
+	display: inline;
+}
+
+.main-nav a {
+	text-decoration: none;
+	color: white;
+	font-family: Averia Sans Libre;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.nav-current a {
+	text-decoration: underline;
+	color: white;
+	font-family: Kranky;
+	font-weight: bold;
+}
+
+.nav-current {
+	display: inline;
+}
+
+#container {min-height: 100%;}
+
+#index-wrapper {
+	padding:1%;
+}
+
+#toTop a{
+	text-decoration: none;
+	color: #ffff00;
+}
+
+#toTop {
+	text-align: right;
+	position:fixed;
+	background: none;
+	bottom: 0;
+	right: 0;
+	background-color: black;
+	opacity: 0.9;
+	padding:10px;
+	border: 1px solid #ffff00;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#index-message, #message, #header-message{
+	background-color: #03080B;
+	opacity: 0.9;
+	width:40%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 8px;
+	color: white;
+}
+
+#index-message{
+	padding:8%;
+}
+
+.resume-h3, .index-em {
+	font-family: Gloria Hallelujah;
+	font-size: 1.4em;
+	color: #99ff00;
+}
+
+.index-em{
+	color: #ff9900;
+}
+
+#message, #header-message{
+	margin-bottom: 15px;
+	padding: 3%;
+}
+
+#header-message, #index-header{
+	font-family: Cabin Sketch;
+}
+
+.header-contact{
+	color: #00ff99;
+}
+
+.a-email{
+	color: #33ffcc;
+	text-decoration: none;
+	font-family: Averia Sans Libre;
+	font-size: 1.2em;
+}
+
+#contact-p{
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#copy {
+	font-size: 70%;
+	text-align: center;
+	background-color:#03080B;
+	opacity: 0.8;
+	padding: 5px;
+	width:55%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#resume-ul{
+    text-align: left;
+    margin-left: 100px;
+}
+
+#resume-centre{
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+.projects-header{
+	color: #3399ff;
+	margin-bottom: 15px;
+}
+
+dt { 
+	float: left; 
+	padding: 4px; 
+	color: black;
+}
+
+.bar {
+	margin-bottom: 10px;
+	color: black;
+	padding: 4px;
+	text-align: center;
+	background-color: #99ff00;
+}
+
+#data-one {width: 85%;}
+#data-two {width: 80%;}
+#data-three {width: 75%;}
+#data-four {width: 75%;}
+#data-five {width: 70%;}
+#data-six {width: 65%;}
+
+
+#form, #chat{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	padding-bottom: 5%;
+}
+
+#chat{
+	visibility: hidden;
+	position: relative;
+}
+
+#chatroom{
+	color: white;
+	margin-bottom: 20px;
+	overflow:auto;
+	text-align: left;
+	border: 2px solid #00ff99;
+	padding: 15px;
+	border-radius: 8px;
+	width: 400px;
+	height: 300px;
+	opacity: 0.7;
+}
+
+#chat-table, #chatroom{
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#msg{
+	resize: none;
+}
+
+.btn-chat, .box-chat{
+	padding: 5px;
+}
+
+
+

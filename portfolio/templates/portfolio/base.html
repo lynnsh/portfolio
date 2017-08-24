@@ -1,0 +1,34 @@
+{% load static %}
+
+<!DOCTYPE>
+<html>
+	<head>
+		<link href="{% static 'portfolio/styles.css' %}" type="text/css" rel="stylesheet">
+		<script type="text/javascript" src="{% static 'portfolio/scripts.js' %}"></script>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Kranky" />
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Averia Sans Libre" />
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cabin Sketch" />
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Gloria Hallelujah" />
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu" />
+		<title>{% block name %}{% endblock %}</title>
+	</head>
+	
+	<body>
+	<div id="content">
+		<nav>
+		<!--fix underline links!!-->
+			<li id="home-nav" class="nav-current"><a href="{% url 'index' %}">HOME</a> /</li>
+			<li class="main-nav" id="projects-nav"><a href="{% url 'projects' %}">PROJECTS</a> /</li>
+			<li class="main-nav" id="resume-nav"><a href="{% url 'resume' %}">RESUME</a> /</li>
+			<li class="main-nav" id="about-nav"><a href="{% url 'about' %}">ABOUT</a> /</li>
+			<li class="main-nav" id="contact-nav"><a href="{% url 'contact' %}">CONTACT</a></li>
+		</nav>
+		
+		{% block content %}
+        {% endblock %}
+
+		<footer id="copy">Aline Shulzhenko &copy; 2017</footer>
+	</div>	
+	</body>
+</html>

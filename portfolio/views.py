@@ -1,22 +1,27 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.template import loader
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the portfolio index.")
+    context = {}
+    return render(request, 'portfolio/index.html', context)
 
 def about(request):
-    return HttpResponse("You're looking at question")
+    context = {}
+    return render(request, 'portfolio/about.html', context)
 
 def contact(request):
-    response = "You're looking at the results of question"
-    return HttpResponse(response)
+    context = {}
+    return render(request, 'portfolio/contact.html', context)
 
 def projects(request):
-    return HttpResponse("You're voting on question .")
+    context = {}
+    return render(request, 'portfolio/projects.html', context)
 
 def resume(request):
-    return HttpResponse("You're voting on question" )
+    context = {}
+    return render(request, 'portfolio/resume.html', context)
 
 
 def c_sharp(request):
