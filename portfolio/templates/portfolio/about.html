@@ -15,16 +15,16 @@ var MEDIA_URL = "{{MEDIA_URL}}";
 			</div>
 		
 			<div id="message">
-				<img src = "images/pic.png" />
+				<img src = '{% static "/portfolio/images/pic.png" %}' />
 				<p>Hello and nice to meet you! My name is Aline Shulzhenko,
-					and currently I am a Dawson College Computer Science student.
+					and currently I am a University of Waterloo Computer Science student.
 				</p>
 			</div>
 			
 			<div id="message">
 				<h2>I like ...</h2>
-				<img id="img-like" src = "images/likes/java.png" />
-				<p class="index-em" id="p-like">... Java</p>
+				<img id="img-like" src = '{% static "/portfolio/images/likes/code.png" %}'/>
+				<p class="index-em" id="p-like">... programming</p>
 			</div>
 		</div>
 		<div id="toTop">

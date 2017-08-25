@@ -1,7 +1,5 @@
 {% extends 'portfolio/base.html' %}
 
-{% load staticfiles %}
-
 {% block name %}Projects{% endblock %}
 
 {% block content %}
@@ -15,30 +13,25 @@
 			<div id="message">
 				<h2 class="projects-header">Web Forum</h2>
 				<a href="../forum" onclick="return popup('../forum')">
-					<img src='{% static "images/forum.png" %}'/></a>
+					<img src='{% static "portfolio/images/forum.png" %}'/></a>
 			</div>
 			<div id="message">
 				<h2 class="projects-header">Memory Game</h2>
 				<a href="../memorygame/index.html" onclick="return popup('../memorygame/index.html')">
-					<img src="images/memory.png"/></a>
+					<img src='{% static "portfolio/images/memory.png" %}'/></a>
 			</div>
 			<div id="message">
 				<h2 class="projects-header">Tetris</h2>
 				<a href="../tetris/publish.htm" onclick="return popup('../tetris/publish.htm')">
-					<img src="images/tetris.png"/></a>
+					<img src='{% static "portfolio/images/tetris.png" %}'/></a>
 			</div>
 			<div id="message">
 				<h2 class="projects-header">Battleship</h2>
-				<img src="images/battleship.png"/>
+				<img src='{% static "portfolio/images/battleship.png" %}'/>
 			</div>
 			<div id="message">
 				<h2 class="projects-header">Tic Tac Toe</h2>
-				<img src="images/tictactoe.png"/>
-			</div>
-			<div id="message">
-				<h2 class="projects-header">Universities</h2>
-				<a href="../uni/index.html" onclick="return popup('../uni/index.html')">
-					<img src="images/uni.png"/></a>
+				<img src='{% static "portfolio/images/tictactoe.png" %}'/>
 			</div>
 			
 		</div>

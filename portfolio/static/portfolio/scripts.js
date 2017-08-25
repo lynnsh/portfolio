@@ -4,19 +4,19 @@ onload = init;
 
 function init() {
 	g.counter = -1;
-	g.likesimg = ["images/likes/travel.png", "images/likes/books.png", "images/likes/science.png", 
-				  "images/likes/linux.png", "images/likes/lotr.png", "images/likes/matrix.png", 
-				  "images/likes/music.png", "images/likes/hiking.png", "images/likes/sherlock.png", 
-				  "images/likes/sw.png", "images/likes/dw.png", "images/likes/blackadder.png", 
-				  "images/likes/java.png"];
+	g.likesimg = ["/static/portfolio/images/likes/travel.png", "/static/portfolio/images/likes/books.png", "/static/portfolio/images/likes/science.png", 
+				  "/static/portfolio/images/likes/linux.png", "/static/portfolio/images/likes/lotr.png", "/static/portfolio/images/likes/matrix.png", 
+				  "/static/portfolio/images/likes/music.png", "/static/portfolio/images/likes/hiking.png", "/static/portfolio/images/likes/sherlock.png", 
+				  "/static/portfolio/images/likes/sw.png", "/static/portfolio/images/likes/dw.png", "/static/portfolio/images/likes/blackadder.png", 
+				  "/static/portfolio/images/likes/dirkgently.png", "/static/portfolio/images/likes/code.png"];
 	g.about = ["... to travel", "... reading", "... science", "... Linux",
 				"... Lord of the Rings", "... The Matrix", "... music", "... hiking",
 				"... Sherlock Holmes stories", "... Star Wars", "... Doctor Who", "... Blackadder", 
-				"... Java"];
-	g.background = "images/1.jpg";
-	g.myimg = "images/pic.png";
-	g.projects = ["images/battleship.png", "images/forum.png", "images/memory.png", 
-				  "images/tetris.png", "images/tictactoe.png", "images/uni.png"];
+				"... Dirk Gently's Holistic Detective Agency", "... programming"];
+	g.background = "/static/portfolio/images/1.jpg";
+	g.myimg = "/static/portfolio/images/pic.png";
+	g.projects = ["/static/portfolio/images/battleship.png", "/static/portfolio/images/forum.png", "/static/portfolio/images/memory.png", 
+				  "/static/portfolio/images/tetris.png", "/static/portfolio/images/tictactoe.png", "/static/portfolio/images/uni.png"];
 	cache();
 	g.likes = document.getElementById("img-like");
 	g.likesp = document.getElementById("p-like");
