@@ -1,0 +1,72 @@
+{% load static %}
+
+<!DOCTYPE>
+<html>
+	<head>
+		<link href="{% static 'memorygame/styles.css' %}" type="text/css" rel="stylesheet">
+		<script type="text/javascript" src="{% static 'memorygame/scripts.js' %}"></script>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Amaranth" />
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Architects+Daughter" />
+	</head>
+	
+	<body>
+		<div id = "content">
+			<header><h1>The Memory Game</h1></header>
+			<section id = "instructions">
+				<p><b>Instructions:</b></p>
+				<p>A simple and fun <i>memory game</i>, flip the cards over and match the pairs 
+				as quickly as possible!</p>
+				<p>Your <b>goal</b> is to match two pairs. Once you match a pair, 
+				the upper layer will disapear, and the part of the hidden image will be shown. 
+				You need to get all the cards turned over in order to see the whole image.</p>
+				<p><i>Click</i> on the cards to turn a card or choose an <i>A-P</i> key.</p>
+			</section>
+			
+			<section id = "buttons">
+				 <button type="button" id="btnPlay" class="button">Play Again</button> 
+				 <button type="button" id="btnEnd" class="button">End Now</button> 
+			</section>
+			
+			<section id="game">
+				<img src="images/back1.jpg" id = "background"/>
+				<div id="inner">
+					<img src='{% static "memorygame/images/inner1.jpg" %}' id = "inner1" class = "innerimg"/>
+					<img src='{% static "memorygame/images/inner2.jpg" %}' id = "inner2" class = "innerimg"/>
+					<img src='{% static "memorygame/images/inner3.jpg" %}' id = "inner3" class = "innerimg"/>
+					<img src='{% static "memorygame/images/inner4.jpg" %}' id = "inner4" class = "innerimg"/> <br>
+					<img src='{% static "memorygame/images/inner5.jpg" %}' id = "inner5" class = "innerimg"/>
+					<img src='{% static "memorygame/images/inner6.jpg" %}' id = "inner6" class = "innerimg"/>
+					<img src='{% static "memorygame/images/inner7.jpg" %}' id = "inner7" class = "innerimg"/>
+					<img src='{% static "memorygame/images/inner8.jpg" %}' id = "inner8" class = "innerimg"/> <br>
+					<img src='{% static "memorygame/images/inner1.jpg" %}' id = "inner9" class = "innerimg"/>
+					<img src='{% static "memorygame/images/inner2.jpg" %}' id = "inner10" class = "innerimg"/>
+					<img src='{% static "memorygame/images/inner3.jpg" %}' id = "inner11" class = "innerimg"/>
+					<img src='{% static "memorygame/images/inner4.jpg" %}' id = "inner12" class = "innerimg"/> <br>
+					<img src='{% static "memorygame/images/inner5.jpg" %}' id = "inner13" class = "innerimg"/>
+					<img src='{% static "memorygame/images/inner6.jpg" %}' id = "inner14" class = "innerimg"/>
+					<img src='{% static "memorygame/images/inner7.jpg" %}' id = "inner15" class = "innerimg"/>
+					<img src='{% static "memorygame/images/inner8.jpg" %}' id = "inner16" class = "innerimg"/>
+				</div>
+				<div id="outer">
+					<img src='{% static "memorygame/images/outer1.jpg" %}' id = "outer1" class = "outerimg"/>
+					<img src='{% static "memorygame/images/outer2.jpg" %}' id = "outer2" class = "outerimg"/>
+					<img src='{% static "memorygame/images/outer3.jpg" %}' id = "outer3" class = "outerimg"/>
+					<img src='{% static "memorygame/images/outer4.jpg" %}' id = "outer4" class = "outerimg"/> <br>
+					<img src='{% static "memorygame/images/outer5.jpg" %}' id = "outer5" class = "outerimg"/>
+					<img src='{% static "memorygame/images/outer6.jpg" %}' id = "outer6" class = "outerimg"/>
+					<img src='{% static "memorygame/images/outer7.jpg" %}' id = "outer7" class = "outerimg"/>
+					<img src='{% static "memorygame/images/outer8.jpg" %}' id = "outer8" class = "outerimg"/> <br>
+					<img src='{% static "memorygame/images/outer9.jpg" %}' id = "outer9" class = "outerimg"/>
+					<img src='{% static "memorygame/images/outer10.jpg" %}' id = "outer10" class = "outerimg"/>
+					<img src='{% static "memorygame/images/outer11.jpg" %}' id = "outer11" class = "outerimg"/>
+					<img src='{% static "memorygame/images/outer12.jpg" %}' id = "outer12" class = "outerimg"/> <br>
+					<img src='{% static "memorygame/images/outer13.jpg" %}' id = "outer13" class = "outerimg"/>
+					<img src='{% static "memorygame/images/outer14.jpg" %}' id = "outer14" class = "outerimg"/>
+					<img src='{% static "memorygame/images/outer15.jpg" %}' id = "outer15" class = "outerimg"/>
+					<img src='{% static "memorygame/images/outer16.jpg" %}' id = "outer16" class = "outerimg"/>
+				</div>
+			</section>
+			
+		</div>
+	</body>
+</html>

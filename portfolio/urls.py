@@ -13,4 +13,5 @@ urlpatterns = [
     url(r'^projects/android/$', views.android, name='android'),
     url(r'^projects/php/$', views.php, name='php'),
     url(r'^projects/javascript/$', views.javascript, name='javascript'),
+    url(r'^memory_game/$', views.memory_game, name='memory_game'),
 ]

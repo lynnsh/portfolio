@@ -1,0 +1,106 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	height: 100%;
+	text-align: center;
+	background-image: url("images/background.jpg");
+	color: white;
+	font-family: Ubuntu;
+}
+
+p {
+	margin: 5px;
+}
+
+header {
+	padding-top: 1%;
+	font-family: Architects Daughter;
+	font-size: 22px;
+	color: #21D8DB;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#game {
+	font-size: 0;
+	padding-bottom: 5%;
+}
+
+#content {
+	width: 80%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#instructions, #buttons, #game {
+	margin-top: 2%;
+}
+
+#instructions {
+	
+	background-color: white;
+	opacity: 0.5;
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 8px;
+	padding: 5px;
+}
+
+#instructions p {
+	color:black;
+	font-size: 16px;
+	padding: 2px;
+}
+
+#inner, #outer, #background {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	padding-bottom: 5%;
+}
+
+#background { z-index: 1; }
+
+#inner {
+	z-index: 2; 
+	visibility: hidden;}
+
+#outer {z-index: 3;}
+
+.outerimg {
+	border: 2px solid #65664d;
+	
+}
+
+.outerimg:hover {
+	border: 2px solid #21D8DB;
+}
+
+.innerimg {
+	border: 2px solid white;
+}
+
+.button {
+	padding: 0.7%;
+	background-color: black;
+	border: none;
+	font-size: 18px;
+	margin-right: 1%;
+	font-family: Amaranth;
+	border-radius: 12px;
+	border: 2px solid #21D8DB;
+	color: white;
+}
+
+.button:hover {
+    background-color: #21D8DB;
+    color: black;
+}
+
+

@@ -173,48 +173,8 @@ dt {
 #data-five {width: 70%;}
 #data-six {width: 65%;}
 
-
-#form, #chat{
-	position: absolute;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-	padding-bottom: 5%;
-}
-
-#chat{
-	visibility: hidden;
-	position: relative;
-}
-
-#chatroom{
-	color: white;
-	margin-bottom: 20px;
-	overflow:auto;
+.align-left {
 	text-align: left;
-	border: 2px solid #00ff99;
-	padding: 15px;
-	border-radius: 8px;
-	width: 400px;
-	height: 300px;
-	opacity: 0.7;
+	margin-left: 110px;
 }
-
-#chat-table, #chatroom{
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-}
-
-#msg{
-	resize: none;
-}
-
-.btn-chat, .box-chat{
-	padding: 5px;
-}
-
-
 

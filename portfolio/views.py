@@ -23,6 +23,10 @@ def resume(request):
     context = {'classresume': "nav-current"}
     return render(request, 'portfolio/resume.html', context)
 
+def memory_game(request):
+    context = {}
+    return render(request, 'memorygame/index.html', context)
+
 
 def c_sharp(request):
     return HttpResponse("c_sharp" )
