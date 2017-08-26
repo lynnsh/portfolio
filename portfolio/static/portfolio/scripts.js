@@ -16,7 +16,7 @@ function init() {
 	g.background = "/static/portfolio/images/1.jpg";
 	g.myimg = "/static/portfolio/images/pic.png";
 	g.projects = ["/static/portfolio/images/battleship.png", "/static/portfolio/images/forum.png", "/static/portfolio/images/memory.png", 
-				  "/static/portfolio/images/tetris.png", "/static/portfolio/images/tictactoe.png", "/static/portfolio/images/uni.png"];
+				  "/static/portfolio/images/tetris.png", "/static/portfolio/images/tictactoe.png"];
 	cache();
 	g.likes = document.getElementById("img-like");
 	g.likesp = document.getElementById("p-like");
