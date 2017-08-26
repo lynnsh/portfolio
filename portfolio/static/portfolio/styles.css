@@ -90,9 +90,17 @@ nav {
 	padding:8%;
 }
 
+.row {
+	margin-bottom: 15px;
+}
+
 .resume-h3, .index-em {
 	font-family: Gloria Hallelujah;
 	font-size: 1.4em;
+	color: #99ff00;
+}
+
+.resume-em {
 	color: #99ff00;
 }
 
@@ -136,7 +144,7 @@ nav {
 	margin-right: auto;
 }
 
-#resume-ul{
+.resume-ul{
     text-align: left;
     margin-left: 100px;
 }
@@ -166,15 +174,26 @@ dt {
 	background-color: #99ff00;
 }
 
-#data-one {width: 85%;}
-#data-two {width: 80%;}
-#data-three {width: 75%;}
-#data-four {width: 75%;}
-#data-five {width: 70%;}
-#data-six {width: 65%;}
+#data1 {width: 85%;}
+#data2 {width: 80%;}
+#data3 {width: 80%;}
+#data4 {width: 75%;}
+#data5 {width: 75%;}
+#data6 {width: 55%;}
+#data7 {width: 85%;}
+#data8 {width: 90%;}
+#data9 {width: 75%;}
+#data10 {width: 75%;}
+#data11 {width: 70%;}
+#data12 {width: 85%;}
+#data13 {width: 75%;}
 
 .align-left {
 	text-align: left;
 	margin-left: 110px;
+}
+
+.resume-ul-1 {
+	margin-left: 70px;
 }
 
