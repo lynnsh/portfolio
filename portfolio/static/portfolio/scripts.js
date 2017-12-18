@@ -4,15 +4,17 @@ onload = init;
 
 function init() {
 	g.counter = -1;
-	g.likesimg = ["/static/portfolio/images/likes/travel.png", "/static/portfolio/images/likes/books.png", "/static/portfolio/images/likes/science.png", 
-				  "/static/portfolio/images/likes/linux.png", "/static/portfolio/images/likes/lotr.png", "/static/portfolio/images/likes/matrix.png", 
+	g.likesimg = ["/static/portfolio/images/likes/travel.png", "/static/portfolio/images/likes/science.png", "/static/portfolio/images/likes/books.png", 
+				  "/static/portfolio/images/likes/ai.png", "/static/portfolio/images/likes/linux.png", "/static/portfolio/images/likes/lotr.png",
+				  "/static/portfolio/images/likes/chip.png", "/static/portfolio/images/likes/matrix.png", "/static/portfolio/images/likes/graphics.png", 
 				  "/static/portfolio/images/likes/music.png", "/static/portfolio/images/likes/hiking.png", "/static/portfolio/images/likes/sherlock.png", 
+				  "/static/portfolio/images/likes/realtime.png", "/static/portfolio/images/likes/monty_python.png", "/static/portfolio/images/likes/dna.png", 
 				  "/static/portfolio/images/likes/sw.png", "/static/portfolio/images/likes/dw.png", "/static/portfolio/images/likes/blackadder.png", 
 				  "/static/portfolio/images/likes/dirkgently.png", "/static/portfolio/images/likes/code.png"];
-	g.about = ["... to travel", "... reading", "... science", "... Linux",
-				"... Lord of the Rings", "... The Matrix", "... music", "... hiking",
-				"... Sherlock Holmes stories", "... Star Wars", "... Doctor Who", "... Blackadder", 
-				"... Dirk Gently's Holistic Detective Agency", "... programming"];
+	g.about = ["... Travelling", "... Quantum Mechanics", "... Reading", "... AI and Machine Learning", "... Linux", "... Lord of the Rings", 
+				"... Microelectronics and Hardware","... The Matrix", "... Computer Graphics", "... Music", "... Hiking",
+				"... Sherlock Holmes stories", "... Real Time Programming", "... Monty Python", "... Bioinformatics and Microbiology", 
+				"... Star Wars",  "... Doctor Who", "... Blackadder", "... Dirk Gently's Holistic Detective Agency", "... Programming"];
 	g.background = "/static/portfolio/images/1.jpg";
 	g.myimg = "/static/portfolio/images/pic.png";
 	g.projects = ["/static/portfolio/images/battleship.png", "/static/portfolio/images/forum.png", "/static/portfolio/images/memory.png", 

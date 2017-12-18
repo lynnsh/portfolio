@@ -119,6 +119,12 @@ nav {
 	color: #ff9900;
 }
 
+.about-em{
+	color: #ff9900;
+	font-family: Coming Soon;
+	font-weight: bold;
+}
+
 .message, #header-message{
 	margin-bottom: 15px;
 	padding: 3%;
@@ -219,3 +225,14 @@ dt {
 	margin-left: 70px;
 }
 
+.img-hover {
+	-webkit-transition: all 0.30s ease-in-out;
+  	-moz-transition: all 0.30s ease-in-out;
+  	-ms-transition: all 0.30s ease-in-out;
+  	-o-transition: all 0.30s ease-in-out;
+  	outline: none;
+}
+
+.img-hover:hover {
+  box-shadow: 0 0 5px white;
+}
