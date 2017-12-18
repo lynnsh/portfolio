@@ -11,6 +11,16 @@ html, body {
 	font-family: Ubuntu;
 }
 
+a:link {
+	color: white;
+	text-decoration: none;
+	font-family: Ubuntu;
+}
+
+a:visited {
+	color: #4E197F;
+}
+
 p {
 	margin: 5px;
 }
@@ -76,7 +86,7 @@ nav {
 	margin-bottom: 10px;
 }
 
-#index-message, #message, #header-message{
+#index-message, #header-message, .message{
 	background-color: #03080B;
 	opacity: 0.9;
 	width:40%;
@@ -94,6 +104,11 @@ nav {
 	margin-bottom: 15px;
 }
 
+.msg-row {
+	margin-bottom: 25px;
+	margin-top: 35px;
+}
+
 .resume-h3, .index-em {
 	font-family: Gloria Hallelujah;
 	font-size: 1.4em;
@@ -108,7 +123,7 @@ nav {
 	color: #ff9900;
 }
 
-#message, #header-message{
+.message, #header-message{
 	margin-bottom: 15px;
 	padding: 3%;
 }
@@ -126,6 +141,10 @@ nav {
 	text-decoration: none;
 	font-family: Averia Sans Libre;
 	font-size: 1.2em;
+}
+
+.lang-header {
+	color: #3399ff;
 }
 
 #contact-p{
