@@ -17,10 +17,6 @@ a:link {
 	font-family: Ubuntu;
 }
 
-a:visited {
-	color: #4E197F;
-}
-
 p {
 	margin: 5px;
 }
@@ -145,6 +141,7 @@ nav {
 
 .lang-header {
 	color: #3399ff;
+	font-family: Ubuntu;
 }
 
 #contact-p{
@@ -174,9 +171,14 @@ nav {
   display: table;
 }
 
-.projects-header{
-	color: #3399ff;
+.projects-header a{
+	color: white;
 	margin-bottom: 15px;
+	font-family: Coming Soon;
+}
+
+.projects-header a:visited {
+	color: #7c47ad;
 }
 
 dt { 
@@ -195,17 +197,18 @@ dt {
 
 #data1 {width: 85%;}
 #data2 {width: 80%;}
-#data3 {width: 80%;}
-#data4 {width: 75%;}
-#data5 {width: 75%;}
-#data6 {width: 55%;}
+#data3 {width: 75%;}
+#data4 {width: 70%;}
+#data5 {width: 65%;}
+#data6 {width: 50%;}
 #data7 {width: 85%;}
-#data8 {width: 90%;}
-#data9 {width: 75%;}
-#data10 {width: 75%;}
-#data11 {width: 70%;}
-#data12 {width: 85%;}
+#data8 {width: 85%;}
+#data9 {width: 70%;}
+#data10 {width: 70%;}
+#data11 {width: 65%;}
+#data12 {width: 80%;}
 #data13 {width: 75%;}
+#data14 {width: 65%;}
 
 .align-left {
 	text-align: left;
