@@ -105,7 +105,7 @@ nav {
 	margin-top: 35px;
 }
 
-.resume-h3, .index-em {
+.resume-h3, .index-em, .like-em {
 	font-family: Gloria Hallelujah;
 	font-size: 1.4em;
 	color: #99ff00;
@@ -125,6 +125,10 @@ nav {
 	font-weight: bold;
 }
 
+.like-em{
+	color: #33ffcc;
+}
+
 .message, #header-message{
 	margin-bottom: 15px;
 	padding: 2.5%;
@@ -135,7 +139,8 @@ nav {
 }
 
 .header-contact{
-	color: #00ff99;
+	color: #33ffcc;
+	font-size: 1.3em;
 }
 
 .a-email{

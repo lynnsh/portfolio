@@ -12,9 +12,9 @@ def about(request):
     context = {'classabout': "nav-current"}
     return render(request, 'portfolio/about.html', context)
 
-def contact(request):
+'''def contact(request):
     context = {'classcontact': "nav-current"}
-    return render(request, 'portfolio/contact.html', context)
+    return render(request, 'portfolio/contact.html', context)'''
 
 def projects(request):
     context = {'classprojects': "nav-current"}
