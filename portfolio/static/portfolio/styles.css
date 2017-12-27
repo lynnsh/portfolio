@@ -127,7 +127,7 @@ nav {
 
 .message, #header-message{
 	margin-bottom: 15px;
-	padding: 3%;
+	padding: 2.5%;
 }
 
 #header-message, #index-header{
@@ -201,21 +201,6 @@ dt {
 	background-color: #99ff00;
 }
 
-#data1 {width: 85%;}
-#data2 {width: 80%;}
-#data3 {width: 75%;}
-#data4 {width: 70%;}
-#data5 {width: 65%;}
-#data6 {width: 50%;}
-#data7 {width: 85%;}
-#data8 {width: 85%;}
-#data9 {width: 70%;}
-#data10 {width: 70%;}
-#data11 {width: 65%;}
-#data12 {width: 80%;}
-#data13 {width: 75%;}
-#data14 {width: 65%;}
-
 .align-left {
 	text-align: left;
 	margin-left: 110px;
@@ -235,4 +220,124 @@ dt {
 
 .img-hover:hover {
   box-shadow: 0 0 5px white;
+}
+
+
+#data1 {width: 85%;}
+#data2 {width: 80%;}
+#data3 {width: 75%;}
+#data4 {width: 70%;}
+#data5 {width: 65%;}
+#data6 {width: 60%;}
+#data7 {width: 85%;}
+#data8 {width: 85%;}
+#data9 {width: 70%;}
+#data10 {width: 70%;}
+#data11 {width: 65%;}
+#data12 {width: 80%;}
+#data13 {width: 75%;}
+#data14 {width: 70%;}
+/*animation for bars on the resume page*/
+@keyframes data1-anim {
+  from {width: 38%;}
+  to {width: 85%;}
+}
+#data1 {
+	animation: 2s ease-out 0s 1 data1-anim;
+}
+
+@keyframes data2-anim {
+  from {width: 42%;}
+  to {width: 80%;}
+}
+#data2 {
+	animation: 2s ease-out 0s 1 data2-anim;
+}
+
+@keyframes data3-anim {
+  from {width: 30%;}
+  to {width: 75%;}
+}
+#data3 {
+	animation: 2s ease-out 0s 1 data3-anim;
+}
+
+@keyframes data4-anim {
+  from {width: 25%;}
+  to {width: 70%;}
+}
+#data4 {
+	animation: 2s ease-out 0s 1 data4-anim;
+}
+
+@keyframes data5-anim {
+  from {width: 25%;}
+  to {width: 65%;}
+}
+#data5 {
+	animation: 2s ease-out 0s 1 data5-anim;
+}
+
+@keyframes data6-anim {
+  from {width: 22%;}
+  to {width: 60%;}
+}
+#data6 {
+	animation: 2s ease-out 0s 1 data6-anim;
+}
+
+@keyframes data7-anim {
+  from {width: 57%;}
+  to {width: 85%;}
+}
+#data7 {
+	animation: 2s ease-out 0s 1 data7-anim;
+}
+
+@keyframes data8-anim {
+  from {width: 25%;}
+  to {width: 85%;}
+}
+#data8 {
+	animation: 2s ease-out 0s 1 data8-anim;
+}
+
+@keyframes data9-anim {
+  from {width: 55%;}
+  to {width: 70%;}
+}
+#data9 {
+	animation: 2s ease-out 0s 1 data9-anim;
+}
+
+@keyframes data10-anim {
+  from {width: 64%;}
+  to {width: 70%;}
+}
+#data10 {
+	animation: 2s ease-out 0s 1 data10-anim;
+}
+
+@keyframes data12-anim {
+  from {width: 43%;}
+  to {width: 80%;}
+}
+#data12 {
+	animation: 2s ease-out 0s 1 data12-anim;
+}
+
+@keyframes data13-anim {
+  from {width: 72%;}
+  to {width: 75%;}
+}
+#data13 {
+	animation: 2s ease-out 0s 1 data13-anim;
+}
+
+@keyframes data14-anim {
+  from {width: 27%;}
+  to {width: 70%;}
+}
+#data14 {
+	animation: 2s ease-out 0s 1 data14-anim;
 }
