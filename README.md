@@ -2,7 +2,10 @@
 
 ## Personal Website Project
 
-_Tools: Python (Django), JavaScript, HTML, CSS_
+_Tools: Python (Django, PythonAnywhere), JavaScript, HTML, CSS_
 
-Description:
-  A personal website that lists the projects I worked on and the skills I acquired.
+Description: <br />
+  A personal website that acts as a portfolio and lists:
+  * my projects and education
+  * my work experiences
+  * my interests and hobbies.
