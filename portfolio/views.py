@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from django.template import loader
-import os
+from django.http import Http404
 
 
 def index(request):
@@ -30,9 +29,12 @@ def memory_game(request):
 
 
 def download_zip(request, filename):
-    zip_path = "portfolio/static/portfolio/zip/"+filename+".zip"
-    zip_file =  open(zip_path, 'rb')
-    response = HttpResponse(zip_file, content_type='application/zip')
-    response['Content-Disposition'] = "attachment; filename="+filename+".zip"
-    zip_file.close()
-    return response
+    zip_path = "/home/lynnsh/mysite/portfolio/static/portfolio/zip/"+filename+".zip"
+    try:
+        zip_file =  open(zip_path, 'rb')
+        response = HttpResponse(zip_file, content_type='application/zip')
+        response['Content-Disposition'] = "attachment; filename="+filename+".zip"
+        zip_file.close()
+        return response
+    except FileNotFoundError:
+        raise Http404
