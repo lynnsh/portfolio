@@ -1,0 +1,29 @@
+{% extends 'portfolio/base.html' %}
+
+<script>
+var MEDIA_URL = "{{MEDIA_URL}}";
+</script>
+
+{% block name %}Page Not Found{% endblock %}
+
+{% block content %}
+		
+		<div id="wrapper">
+		
+			<div id="header-message">
+				<header><h1>Error 404. Page Not Found</h1></header>
+			</div>
+		
+			<div class="message">
+				<p>The requested URL <span class="not-found">{% request_path%}</span> was not found on this server.</p>
+				<img src='{% static "dont_panic.jpg" %}'/>
+			</div>
+
+			<div class="message error-sm">
+				<p>P.S. However, if you are looking for the Answer to the Ultimate Question of Life, the Universe, and Everything, it is</p>
+				<h2><span class="not-found error-lg">42</span></h2>
+				<p>You are welcome :)</p>
+			</div>
+
+			
+{% endblock %}

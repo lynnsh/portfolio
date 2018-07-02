@@ -29,7 +29,8 @@ def memory_game(request):
 
 
 def download_zip(request, filename):
-    zip_path = "/home/lynnsh/mysite/portfolio/static/portfolio/zip/"+filename+".zip"
+    #zip_path = "/home/lynnsh/mysite/portfolio/static/portfolio/zip/"+filename+".zip"
+    zip_path = "portfolio/static/portfolio/zip/"+filename+".zip"
     try:
         zip_file =  open(zip_path, 'rb')
         response = HttpResponse(zip_file, content_type='application/zip')

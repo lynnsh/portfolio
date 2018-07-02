@@ -227,13 +227,27 @@ dt {
   box-shadow: 0 0 5px white;
 }
 
+.not-found {
+	color: #ff4300;
+	font-family: Coming Soon;
+	font-weight: bold;
+}
+
+.error-sm {
+	font-size: 0.9em;
+}
+
+.error-lg {
+	font-size: 1.4em;
+}
+
 
 #data1 {width: 85%;}
 #data2 {width: 80%;}
 #data3 {width: 75%;}
 #data4 {width: 70%;}
-#data5 {width: 65%;}
-#data6 {width: 60%;}
+#data5 {width: 70%;}
+#data6 {width: 70%;}
 #data7 {width: 85%;}
 #data8 {width: 85%;}
 #data9 {width: 70%;}
@@ -277,15 +291,15 @@ dt {
 
 @keyframes data5-anim {
   from {width: 25%;}
-  to {width: 65%;}
+  to {width: 70%;}
 }
 #data5 {
 	animation: 2s ease-out 0s 1 data5-anim;
 }
 
 @keyframes data6-anim {
-  from {width: 22%;}
-  to {width: 60%;}
+  from {width: 25%;}
+  to {width: 70%;}
 }
 #data6 {
 	animation: 2s ease-out 0s 1 data6-anim;

@@ -7,7 +7,7 @@ function init() {
 	g.likesimg = ["/static/portfolio/images/likes/travel.png", "/static/portfolio/images/likes/science.png", "/static/portfolio/images/likes/books.png", 
 				  "/static/portfolio/images/likes/ai.png", "/static/portfolio/images/likes/linux.png", "/static/portfolio/images/likes/lotr.png",
 				  "/static/portfolio/images/likes/chip.png", "/static/portfolio/images/likes/matrix.png", "/static/portfolio/images/likes/graphics.png", 
-				  "/static/portfolio/images/likes/music.png", "/static/portfolio/images/likes/hiking.png", "/static/portfolio/images/likes/sherlock.png", 
+				  "/static/portfolio/images/likes/guitar.png", "/static/portfolio/images/likes/hiking.png", "/static/portfolio/images/likes/sherlock.png", 
 				  "/static/portfolio/images/likes/realtime.png", "/static/portfolio/images/likes/monty_python.png", "/static/portfolio/images/likes/dna.png", 
 				  "/static/portfolio/images/likes/sw.png", "/static/portfolio/images/likes/dw.png", "/static/portfolio/images/likes/blackadder.png", 
 				  "/static/portfolio/images/likes/dirkgently.png", "/static/portfolio/images/likes/code.png"];
@@ -56,6 +56,13 @@ function loop(){
 function popup(url){
 	window.open(url,'name',
 		'height=500, width=1300,toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=0,top=0');
+    return false;
+}
+
+//Create a popup window for the given link from java website.
+function popupJava(url){
+	window.open(url,'name',
+		'height=900, width=1500,toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=0,top=0');
     return false;
 }
 
